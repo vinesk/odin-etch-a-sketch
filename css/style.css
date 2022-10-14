@@ -15,6 +15,7 @@ h1 {
   font-family: "Fredoka One", cursive;
   text-transform: capitalize;
   margin: 24px auto;
+  width: 480px;
 }
 
 #container {
@@ -37,11 +38,12 @@ h1 {
   align-items: center;
   gap: 6px;
   margin: 6px auto;
+  width: 480px;
 }
 
 button {
   font-size: 12px;
-  padding: 6px 12px;
+  padding: 0 12px;
 }
 
 button,
@@ -49,6 +51,10 @@ input {
   background-color: #ddd;
   border: 2px solid #222;
   border-radius: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 32px;
 }
 
 button:hover,
